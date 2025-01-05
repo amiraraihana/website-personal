@@ -1,0 +1,368 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+	<link rel="icon" sizes="16x16" href="image/gif/flower.gif">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+        /* Styling for anchor links */
+        a {
+            text-decoration: none; 
+            color: #63819a; 
+            font-size: 1rem;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #e0cfc4;
+        }
+    </style>
+</head>
+<body>
+
+		<header>
+			<table bgcolor="#F8F1EC" border="0" align="center" width="1350" style="border-collapse:collapse;">
+				<tr>
+					<td colspan="6">
+						<table border="0" align="center" style="border-collapse:collapse;">
+							<tr>
+								<td width="200" height="90" align="center">
+									<img src="image/logo.png" alt="Logo" style="width: 100px; height: auto;">
+								</td>
+								<td width="500" height="50" align="center"></td>
+								<td width="100" align="center"><a href="index.html">Home</a></td>
+								<td width="100" align="center"><a href="skills.html">Skills</a></td>
+								<td width="150" align="center"><a href="experience.html">Experience</a></td>
+								<td width="100" align="center"><a href="hobbies.html">Hobbies</a></td>
+								<td width="100" align="center"><a href="gallery.html">Gallery</a></td>
+								<td width="100" align="center"><a href="contact.html">Contact</a></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</header>
+
+		<!-- Separator -->
+		<table>
+			<tr>
+				<td><p>&nbsp;</p></td> <!--non-breaking space-->
+			</tr>
+		</table>
+		<!-- Separator End -->
+		
+		<main>
+
+		<!-- Main Table Container -->
+		<table bgcolor="#e0cfc4" align="center" border="0" width="900" style="border-collapse: collapse; margin: 20px auto;">
+			<tr>
+				<td colspan="6" height="400">
+						<div class="slideshow-container">
+							<div class="mySlides fade">
+							  <div class="numbertext">1 / 3</div>
+							  <img src="image/family1.jpg" style="width:100%">
+							  <div class="text"><b>Family</b></div>
+							</div>
+
+							<div class="mySlides fade">
+							  <div class="numbertext">2 / 3</div>
+							  <img src="image/friends1.jpg" style="width:100%">
+							  <div class="text"><b>Friends</b></div>
+							</div>
+
+							<div class="mySlides fade">
+							  <div class="numbertext">3 / 3</div>
+							  <img src="image/scenery6.jpg" style="width:100%">
+							  <div class="text"><b>My comfort place</b></div>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">❮</a>
+							<a class="next" onclick="plusSlides(1)">❯</a>
+
+						</div>
+					<br>
+
+							<div style="text-align:center">
+							  <span class="dot" onclick="currentSlide(1)"></span> 
+							  <span class="dot" onclick="currentSlide(2)"></span> 
+							  <span class="dot" onclick="currentSlide(3)"></span> 
+							</div>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- Separator -->
+			<table>
+				<tr>
+					<td><p style="margin: 0.5px;"></p></td>
+				</tr>
+			</table>
+			<!-- Separator End -->
+
+		<table border="0" align="center" width="900" style="border-collapse: collapse; margin: 20px auto; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+						<!-- Row for Navigation Links -->
+						<tr height="50" style="background-color: #ece3dd;">
+							<td colspan="2" align="center" width="150"></td>
+							<td align="center" width="200">
+								<a href="#family">Family</a>
+							</td>
+							<td align="center" width="200">
+								<a href="#friends">Friends</a>
+							</td>
+							<td align="center" width="200">
+								<a href="#scenery">Scenery</a>
+							</td>
+							<td align="center" width="150"></td>
+						</tr>
+		</table>
+		
+			<!-- Separator -->
+			<table>
+				<tr>
+					<td><p style="margin: 0.5px;"></p></td>
+				</tr>
+			</table>
+			<!-- Separator End -->
+			
+
+			<!-- Fav Songs Section -->
+		<table bgcolor="#e0cfc4" border="0" align="center" width="1000" style="border-collapse: collapse; margin: 20px auto;">
+    <tr>
+        <td colspan="6" align="center" style="padding: 20px; text-align: center;">
+            <section id="family" style="margin: 20px auto; max-width: 1200px;">
+                <h2 style="text-align: center; color: #ffffff;">Family</h2>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="image/family2.jpg">
+                        <div class="caption">My family</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family3.jpg">
+                        <div class="caption">Vacation in Ipoh</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family4.jpg">
+                        <div class="caption">My mother - Mrs.Asma</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family5.jpg">
+                        <div class="caption">Raya 2024 - with Embah</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family6.jpg">
+                        <div class="caption">Trip to Island Pangkor</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family7.jpg">
+                        <div class="caption">My dad - Mr. Azmir</div>
+                    </div>
+					<div class="gallery-item">
+						<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+						  <source src="video/family2.mp4" type="video/mp4">
+						</video>
+					</div>
+                    <div class="gallery-item">
+                        <img src="image/family13.jpg">
+                        <div class="caption">My cousins</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family12.jpg">
+                        <div class="caption">My brother</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family9.jpg">
+                        <div class="caption">My nephew</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image/family16.jpg">
+                        <div class="caption">my siblings</div>
+                    </div>
+					<div class="gallery-item">
+						<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+						  <source src="video/family1.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="gallery-item">
+						<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+						  <source src="video/family3.mp4" type="video/mp4">
+					</video>
+					</div>
+					 <div class="gallery-item">
+                        <img src="image/family14.jpg">
+                        <div class="caption">Trip to Perlis</div>
+                    </div>
+					<div class="gallery-item">
+						<video controls autoplay muted loop style="width: 80%; border-radius: 7px; margin-bottom: 10px;">
+						  <source src="video/family4.mp4" type="video/mp4">
+					</video>
+					</div>
+					<div class="gallery-item">
+                        <img src="image/family15.jpg">
+                        <div class="caption">Penang Hill</div>
+                    </div>
+                </div>
+				<p style="text-align: center; margin-top: 20px;">
+					<a href="#top" style="text-decoration: none; background-color: #9286a6; color: #fff; padding: 10px 30px; border-radius: 20px;">ˊˎ- Go Back Up ˊˎ-</a>
+				</p>
+            </section>
+        </td>
+    </tr>
+
+
+			<!-- Uni Friends Section -->
+			<tr>
+				<td colspan="6" align="center" style="padding: 20px; text-align: center;">
+					<section id="friends" style="margin: 20px auto; max-width: 1200px;">
+						<h2 style="text-align: center; color: #ffffff;">Friends</h2>
+						<div class="gallery">
+							<div class="gallery-item">
+								<img src="image/friends6.jpg">
+								<div class="caption">Trip to Genting Highlands</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends2.jpg">
+								<div class="caption">Close Friends</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends3.jpg">
+								<div class="caption">Groupmate</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends4.jpg">
+								<div class="caption">Ex Housemate</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends5.jpg">
+								<div class="caption">Teammate - "Biro Perhubungan"</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends9.jpg">
+								<div class="caption">Classmate</div>
+							</div>
+							<div class="gallery-item">
+								<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+								  <source src="video/friends1.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div class="gallery-item">
+								<img src="image/friends7.jpg">
+							</div>
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin: 0 auto;">
+								<video controls autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+								  <source src="video/friends2.mp4" type="video/mp4">
+								</video>
+							<div class="caption">Visit National Archive of Malaysia</div>
+							</div>
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin-left: 85px;">
+								<img src="image/friends8.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<div class="caption">Last minute plan - Melaka</div>
+							</div>
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin-left: 170px">
+								<video controls autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+								  <source src="video/friends3.mp4" type="video/mp4">
+								</video>
+							<div class="caption">Karaoke with friends</div>
+							</div>
+
+						</div>
+						<p style="text-align: center; margin-top: 20px;">
+							<a href="#top" style="text-decoration: none; background-color: #9286a6; color: #fff; padding: 10px 30px; border-radius: 20px;">ˊˎ- Go Back Up ˊˎ-</a>
+						</p>
+					</section>
+				</td>
+			</tr>
+
+
+            <!-- School Section -->
+			<tr>
+				<td colspan="6" align="center" style="padding: 20px; text-align: center;">
+					<section id="scenery" style="margin: 20px auto; max-width: 1200px;">
+						<h2 style="text-align: center; color: #ffffff;">Scenery</h2>
+						<div class="gallery">
+							<div class="gallery-item">
+								<img src="image/scenery4.jpg">
+								<div class="caption">Flower Garden</div>
+							</div>
+							<div class="gallery-item">
+								<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+								  <source src="video/scenery1.mp4" type="video/mp4">
+								</video>
+								<div class="caption">Putrajaya Boat Cruise</div>
+							</div>
+							<div class="gallery-item">
+								<img src="image/scenery5.jpg">
+								<div class="caption">Sekinchan Coconut Farm</div>
+							</div>
+							<div class="gallery-item">
+								<video controls autoplay muted loop style="width: 90%; border-radius: 7px; margin-bottom: 10px;">
+								  <source src="video/scenery2.mp4" type="video/mp4">
+								</video>
+								<div class="caption">Mountain of flowers and fruit - Genting Highlands</div>
+							</div>
+					
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin: 0 auto;">
+								<img src="image/scenery2.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<div class="caption">Kuala Kedah Beach</div>
+							</div>
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin-left: 85px;">
+								<img src="image/scenery3.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<div class="caption">River of Life</div>
+							</div>
+							<div class="gallery-item" style="position: relative; width: 138%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 7px; margin-left: 170px">
+								<img src="image/scenery1.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+								<div class="caption">Langkawi Island</div>
+							</div>
+						</div>
+						<p style="text-align: center; margin-top: 20px;">
+							<a href="#top" style="text-decoration: none; background-color: #9286a6; color: #fff; padding: 10px 30px; border-radius: 20px;">ˊˎ- Go Back Up ˊˎ-</a>
+						</p>
+					</section>
+				</td>
+			</tr>
+			
+		</table>
+
+	<script>
+			let slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+	</script>
+	
+		<!-- Separator -->
+		<table>
+			<tr>
+				<td><p>&nbsp;</p></td> <!--non-breaking space-->
+			</tr>
+		</table>
+		<!-- Separator End -->
+		
+    <footer>
+        <p>&copy; 2024 Nur Amira Raihana | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
